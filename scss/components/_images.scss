@@ -1,0 +1,46 @@
+.fylo {
+  height: 25px;
+
+  @media (min-width: 37.5em) {
+    height: 35px;
+  }
+
+  @media (min-width: 50em) {
+    height: 40px;
+  }
+
+  @media (min-width: 71em) {
+    height: 45px;
+  }
+}
+
+.curve {
+  width: 100%;
+  margin-bottom: -1rem;
+}
+
+.fylo-link {
+  display: flex;
+  gap: .5rem;
+}
+
+.icon-arrow {
+  height: 20px;
+  width: 20px;
+}
+
+.kyle {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.quotes {
+  align-self: flex-start;
+}
+
+.footer-logo {
+  margin-bottom: 1.5rem;
+ fill: #fff;
+}
